@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Shared styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+section{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+:root{
+    --dark-1: #272727;
+    --pinku: #E55473;
+}
+
+.center-align{
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
+
+.description{
+    font-size: 0.85rem;
+    color: var(--dark-1);
+    opacity: 0.6;
+}
+
+.title{
+    font-size: 2.2rem;
+    font-weight: bolder;
+    color: var(--dark-1);
+    margin-bottom: 15px;
+}
+
+.section-info{
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.primary-btn{
+    background-color: var(--pinku);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+/* Banner related styles */
+.header{
+    width: 100%;
+    height: 600px;
+    background-color: #FCEEF1;
+}
+
+.banner-container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.banner-content {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.banner-image{
+    width: 40%;
+    height: 100%;
+}
+
+.banner-heading{
+    font-size: 3.3rem;
+    font-weight: bolder;
+    color: var(--dark-1);
+    margin-bottom: 24px;
+}
+
+.banner-image img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Featured Flowers section */
+.featured-section{
+    margin-top: 100px;
+}
+
+.featured-image-container{
+    display: flex;
+    gap: 15px;
+}
+
+.featured-image{
+    width: 33%;
+    border-radius: 50% 50% 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* height: 200px; */
+}
+
+.featured-image img{
+    width: 80%;
+    height: 80%;
+}
+
+.featured-image:nth-child(1){
+    background-color: #F2DEE7;
+} 
+.featured-image:nth-child(2){
+    background-color: #D9EFF1;
+}
+.featured-image:nth-child(3){
+    background-color: #E3EBDB;
+}
+
+.featured-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured-links a{
+    font-size: 1.1rem;
+    color: var(--dark-1);
+    font-weight: bold;
+    margin-top: 32px;
+}
+
+/* Support Section styles */
+.support-section{
+    margin-top: 90px;
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: space-around;
+    padding: 85px 0;
+    border-radius: 10px;
+}
+
+.support-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-content img{
+    width: 88px;
+    height: 88px;
+}
+
+.support-title{
+    font-size: 1.1rem;
+    color: var(--dark-1);
+    font-weight: 600;
+    margin-top: 24px;
+    opacity: 0.7;
+}
+
+.support-title a{
+    text-decoration: none;
+    color: var(--dark-1);
+}
+
+/* Discount and sign up section */
+.discount-section{
+    max-width: 100%;
+    background-color: #fef6f8;
+    margin: 90px 0;
+}
+
+.discount-container{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.discount-content{
+    text-align: center;
+    max-width: 520px;
+}
+
+#off{
+    color: var(--pinku);
+}
+
+/* Instagram section related styles */
+.instagram-image-container{
+    display: flex;
+    gap: 15px;
+}
+
+.instagram-image-container img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+/* Footer related styles */
+
