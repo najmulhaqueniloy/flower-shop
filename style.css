@@ -225,7 +225,60 @@ section{
     border-radius: 10px;
 }
 
+/* Subscribe Section styles */
+.subscribe-section{
+    margin: 90px auto;
+    padding: 100px 0;
+    background-image: url(assets/flower-bg.png);
+    background-size: cover;
+}
+
+.subscribe-content{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#input-email{
+    padding: 14px 20px;
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+}
+
+
 
 
 /* Footer related styles */
+footer{
+    width: 100%;
+    background-color: #111010;
+    padding: 90px 20px;
+}
 
+.footer-content{
+    color: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+#flower{
+    color: var(--pinku);
+}
+
+.footer-description{
+    font-size: 1rem;
+    opacity: 0.9;
+    margin: 15px 0 32px 0;
+}
+
+.footer-reference{
+    font-size: 0.875rem;
+    opacity: 0.4;
+}
